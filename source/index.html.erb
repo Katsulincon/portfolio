@@ -1,5 +1,72 @@
 <div class="container">
-  <div class="row justify-content-center">
-    <h1>Middleman Boilerplate</h1>
+  <div class="banner">
+    <h1>Munekatsu Furugen</h1>
+    <p>Full Stack Developer</p>
+    <div class="logos">
+      <a href="mailto:rinconlincon@gmail.com">
+        <i class="far fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/munekatsu-furugen-808b9516a/">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Katsulincon">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
   </div>
+
+
+  <div class="body-container">
+    <h2>About Me</h2>
+    <div class="about-me-container">
+      <div id="avatar">
+        <img class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+      </div>
+      <div class="intro">
+        <p>introduction</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-container mx-2">
+    <h2 class="container-title">Web Applications</h2>
+    <div class="applications-card">
+      <div class="app-image">
+        <%= image_tag("happy.png") %>
+      </div>
+      <div class="app-info">
+        <h5>Happy</h5>
+        <h6>Lead Developer</h6>
+        <p>Happy is an app which user can track their moods and activities.
+        The app find and suggest good activities to users based on users' logs.
+        </p>
+        <%= link_to "View Site →","https://www.happyyou.xyz/", class: "btn btn-outline-dark" %>
+      </div>
+    </div>
+
+    <div class="applications-card">
+      <div class="app-info">
+        <h5>Pick-a-sitter</h5>
+        <h6>Front End Developer</h6>
+        <p>Pick-a-sitter is an app which user can easily find and book babysitters around them. </p>
+        <%= link_to "View Site →","https://pick-a-sitter.herokuapp.com/", class: "btn btn-outline-dark" %>
+      </div>
+      <div class="app-image">
+        <%= image_tag("pick-a-sitter.png") %>
+      </div>
+    </div>
+
+   <div class="applications-card">
+      <div class="app-image">
+        <%= image_tag("cocktail.png") %>
+      </div>
+      <div class="app-info">
+        <h5>Cocktail & Cocktail</h5>
+        <h6>Back End & Front End Developer</h6>
+        <p>This is an app which allows you to save cocktail recipes</p>
+        <%= link_to "View Site →","https://cocktail-cocktail.herokuapp.com/cocktails", class: "btn btn-outline-dark" %>
+      </div>
+    </div>
+  </div>
+
 </div>
