@@ -6,7 +6,7 @@
 .banner {
   color: #001640;
   text-align: center;
-  height: 88vh;
+  height: 92vh;
   // height: 400px;
   width: 100%;
   padding: 192px 0;
@@ -27,6 +27,17 @@
   i:hover {
     color: #ec5b9e;
     transition: 0.5s;
+  }
+}
+
+.intro {
+  // margin-left: 32px;
+  width: 480px;
+  margin: 28px 0 auto 32px;
+  p {
+    margin-bottom: 0;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
   }
 }
 
@@ -55,7 +66,7 @@
 .about-me-container {
   display: flex;
   justify-content: space-around;
-  padding-top: 48px;
+  padding-top: 20px;
   padding-bottom: 12px;
 }
 
@@ -80,6 +91,10 @@
     font-size: 16px;
     font-weight: lighter;
   }
+  h6 {
+    // color: #FD96A0;
+    color: #ec5b9e;
+  }
   .app-info {
     width: 100%;
     // padding-left: 32px;
@@ -90,3 +105,24 @@
     align-self: center;
   }
 }
+
+.btn-outline-dark {
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 16px;
+  padding: 4px 20px 4px 30px;
+  border: 1.6px solid #001640;
+  border-radius: 40px;
+  display: inline-block;
+  // transition: all 0.4s ease 0s;
+  transition-duration: 0.2s;
+}
+
+.btn-outline-dark:hover {
+  background-color: #001640;
+}
+
+
+
+
